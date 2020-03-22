@@ -1,0 +1,32 @@
+{
+  "name": "ferizbori",
+  "version": "0.0.1",
+  "description": "Pracenje i prijava report",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luka Matovic",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^4.3.1",
+    "bcrypt": "^3.0.7",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-rate-limit": "^5.1.1",
+    "firebase-admin": "^8.9.1",
+    "hpp": "^0.2.3",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

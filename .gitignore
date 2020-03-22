@@ -1,0 +1,19 @@
+./node_modules
+./node_modules/*
+node_modules/
+config/config*
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# IDE - VSCode
+.vscode/*
+!../.vscode/settings.json
+!../.vscode/tasks.json
+!../.vscode/launch.json
+!../.vscode/extensions.json
+../.history/*
